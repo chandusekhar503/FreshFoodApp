@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Kirana</string>
+    <string name="label_windspeed">Wind Speed :</string>
+    <string name="label_winddegree">Wind Degree :</string>
+    <string name="label_humidity">Humidity :</string>
+    <string name="label_cloud">Cloud :</string>
+    <string name="degree">%1$s \u2103</string>
+    <string name="speed">%1$s Kph</string>
+    <string name="error">Error while Processing</string>
+
+</resources>

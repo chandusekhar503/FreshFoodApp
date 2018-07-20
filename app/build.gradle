@@ -1,0 +1,60 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion '27.0.0'
+    defaultConfig {
+        multiDexEnabled true
+        applicationId "com.example.dineshkumarreddy.retrofit"
+        minSdkVersion 21
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    implementation 'com.android.support:appcompat-v7:27.1.0'
+    implementation "com.android.support:design:27.1.1"
+    testCompile 'junit:junit:4.12'
+
+    implementation 'com.google.code.gson:gson:2.8.2'
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+
+    compileOnly 'org.glassfish:javax.annotation:10.0-b28'
+
+    annotationProcessor 'com.google.dagger:dagger-compiler:2.11'
+    implementation 'com.google.dagger:dagger:2.11'
+    compileOnly 'javax.annotation:jsr250-api:1.0'
+    // Butterknife
+    implementation 'com.jakewharton:butterknife:8.6.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.6.0'
+
+    implementation 'com.google.android.gms:play-services:12.0.1'
+    implementation 'com.google.android.gms:play-services-location:12.0.1'
+    implementation 'com.mobsandgeeks:android-saripaar:2.0.3'
+
+}
+
+///Users/dineshkumarreddy/AndroidStudioProjects/Retrofit/gradle.properties
+///Users/dineshkumarreddy/AndroidStudioProjects/Retrofit/build/generated
+task copyFiles(type: Copy) {
+    from '/Users/dineshkumarreddy/AndroidStudioProjects/Retrofit/gradle.properties'
+    into '/Users/dineshkumarreddy/AndroidStudioProjects/Retrofit/build/generated'
+}
+
+preBuild.dependsOn(copyFiles)
+//
+//copy { from '/Retrofit/gradle.properties'; into '/Retrofit/build/generated/gradle.prope'}
