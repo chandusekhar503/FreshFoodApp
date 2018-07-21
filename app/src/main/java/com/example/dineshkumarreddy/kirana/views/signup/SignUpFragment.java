@@ -11,6 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ProgressBar;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 
@@ -110,6 +111,9 @@ public class SignUpFragment extends BaseFragment implements SignupView, Validato
     @BindView(R.id.btnRegister)
     Button btnRegister;
 
+    @BindView(R.id.progres_bar)
+    ProgressBar progressBar;
+
     @Inject
     SignUpPresenter presenter;
 
@@ -164,11 +168,14 @@ public class SignUpFragment extends BaseFragment implements SignupView, Validato
 
     @Override
     public void showLoading() {
-
+        btnRegister.setVisibility(View.GONE);
+        progressBar.setVisibility(View.VISIBLE);
     }
 
     @Override
     public void hideLoding() {
+        btnRegister.setVisibility(View.VISIBLE);
+        progressBar.setVisibility(View.GONE);
     }
 
     @Override
@@ -178,8 +185,10 @@ public class SignUpFragment extends BaseFragment implements SignupView, Validato
 
     @Override
     public void showError(String messsage) {
-        if (getView() != null && isAdded())
+        hideLoding();
+        if (getView() != null && isAdded()) {
             Snackbar.make(getView(), messsage, 400).show();
+        }
     }
 
     @OnClick(R.id.btnRegister)

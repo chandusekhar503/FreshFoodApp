@@ -16,6 +16,7 @@ import android.view.ViewGroup;
 import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -60,6 +61,12 @@ public class SignInFragment extends BaseFragment implements SigninView, Validato
 
     @BindView(R.id.etPassword)
     EditText etPassword;
+
+    @BindView(R.id.progres_bar)
+    ProgressBar progressBar;
+
+    @BindView(R.id.btnLogin)
+    Button btnLogin;
 
     SignInScreen signInScreen;
 
@@ -140,12 +147,14 @@ public class SignInFragment extends BaseFragment implements SigninView, Validato
 
     @Override
     public void showLoading() {
-
+        btnLogin.setVisibility(View.GONE);
+        progressBar.setVisibility(View.VISIBLE);
     }
 
     @Override
     public void hideLoding() {
-
+        btnLogin.setVisibility(View.VISIBLE);
+        progressBar.setVisibility(View.GONE);
     }
 
     @Override
@@ -170,12 +179,20 @@ public class SignInFragment extends BaseFragment implements SigninView, Validato
             }
         });
 
+        btnCancel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                dialog.cancel();
+            }
+        });
+
         dialog.show();
 
     }
 
     @Override
     public void showError(String message) {
+        hideLoding();
         Snackbar.make(getView(), message, 400).show();
     }
 

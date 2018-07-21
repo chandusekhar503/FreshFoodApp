@@ -43,16 +43,25 @@
             android:hint="Password"/>
     </android.support.design.widget.TextInputLayout>
 
-
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tilMobile"
+        android:layout_below="@+id/tilPassword">
     <Button
         android:id="@+id/btnLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/tilMobile"
-        android:layout_below="@+id/tilPassword"
         android:text="Login"
         style="@style/AppButtonStyle"/>
 
+    <ProgressBar
+        android:id="@+id/progres_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"/>
+    </RelativeLayout>
     <TextView
         android:id="@+id/tvSignUp"
         android:layout_width="wrap_content"
@@ -62,4 +71,6 @@
         style="@style/login_text"
         android:text="Sign Up"
         android:padding="@dimen/dimen_8"/>
+
+
 </RelativeLayout>

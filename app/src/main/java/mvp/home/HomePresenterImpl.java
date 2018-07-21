@@ -25,27 +25,6 @@ public class HomePresenterImpl implements HomePresenter {
     }
 
     @Override
-    public void signIn(String mobile, String password) {
-        if (homeView != null) {
-            homeView.showLoading();
-            Call<LoginResponse> resp = RetrofitClient.getAPIClient().signIn(mobile, password);
-            resp.enqueue(new Callback<LoginResponse>() {
-                @Override
-                public void onResponse(Call<LoginResponse> call, Response<LoginResponse> response) {
-                    homeView.hideLoding();
-                    homeView.navigateToHome();
-                }
-
-                @Override
-                public void onFailure(Call<LoginResponse> call, Throwable t) {
-                    System.out.println(t.getMessage());
-                    homeView.showError(t.getMessage());
-                }
-            });
-        }
-    }
-
-    @Override
     public void detachView() {
         homeView = null;
     }

@@ -35,18 +35,17 @@ public class SignInPresenterImpl implements SignInPresenter {
                 public void onResponse(Call<LoginResponse> call, Response<LoginResponse> response) {
                     signinView.hideLoding();
                     signinView.showEmailNotVerifiedDialog();
-//                    if(response.body().getCode() == 201){
-//                        signinView.showEmailNotVerifiedDialog();
-//                    }else {
-//                        signinView.navigateToHome();
-//                    }
+                    if(response.body().getCode() == 201){
+                        signinView.showEmailNotVerifiedDialog();
+                    }else {
+                        signinView.navigateToHome();
+                    }
                 }
 
                 @Override
                 public void onFailure(Call<LoginResponse> call, Throwable t) {
                     System.out.println(t.getMessage());
                     signinView.showError(t.getMessage());
-                    signinView.showEmailNotVerifiedDialog();
                 }
             });
         }
