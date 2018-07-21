@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.ProgressBar;
 
+import com.example.dineshkumarreddy.kirana.views.home.HomeActivity;
 import com.example.dineshkumarreddy.kirana.views.signup.RegisterActivity;
 import com.example.dineshkumarreddy.kirana.Utils.AppUtils;
 import com.example.dineshkumarreddy.kirana.views.base.BaseActivity;
@@ -64,6 +65,6 @@ public class LoginActivity extends BaseActivity implements SignInScreen {
 
     @Override
     public void launchHome() {
-        startActivity(new Intent(this, RegisterActivity.class));
+        startActivity(new Intent(this, HomeActivity.class));
     }
 }

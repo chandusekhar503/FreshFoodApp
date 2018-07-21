@@ -17,7 +17,7 @@ public class RetrofitClient {
 
     public static APIInterface getAPIClient() {
         if (mApiInterface == null) {
-            Retrofit restAdapter = new Retrofit.Builder().baseUrl("http://192.168.1.4:3000/")//192.168.1.5 192.168.43.40
+            Retrofit restAdapter = new Retrofit.Builder().baseUrl("http://192.168.1.11:3000/")//192.168.1.5 192.168.43.40
                     .addConverterFactory(GsonConverterFactory.create())
                     .build();
             mApiInterface = restAdapter.create(APIInterface.class);
