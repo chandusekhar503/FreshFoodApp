@@ -1,18 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="8dp">
+    android:layout_margin="8dp"
+    android:orientation="vertical">
 
     <TextView
-        style="@style/TextAppearance.Widget.AppCompat.Toolbar.Title"
         android:id="@+id/tvItemName"
+        style="@style/TextAppearance.AppCompat.Small"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="item name"/>
+        android:text="item name" />
+
+    <TextView
+        android:id="@+id/tvCost"
+        style="@style/TextAppearance.AppCompat.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:id="@+id/tvCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvItemName"
+        android:padding="@dimen/dimen_8"
+        android:text="1" />
+
+    <TextView
+        android:id="@+id/tvAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvItemName"
+        android:padding="@dimen/dimen_8"
+        android:textStyle="bold"
+        android:textSize="@dimen/font_18"
+        android:layout_alignParentEnd="true"
+        android:text="+" />
+
+    <TextView
+        android:id="@+id/tvRemove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvItemName"
+        android:padding="@dimen/dimen_8"
+        android:textStyle="bold"
+        android:textSize="@dimen/font_18"
+        android:layout_toStartOf="@+id/tvAdd"
+        android:text="-" />
 
 
 
 
-
-</LinearLayout>
+</RelativeLayout>
