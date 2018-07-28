@@ -14,6 +14,7 @@ public class Products implements Serializable {
 
     private String itemName;
     private String itemCost;
+    private String itemCount;
 
     public Products(String itemName, String itemCost) {
         this.itemName = itemName;
@@ -36,11 +37,20 @@ public class Products implements Serializable {
         this.itemCost = itemCost;
     }
 
+    public String getItemCount() {
+        return itemCount;
+    }
+
+    public void setItemCount(String itemCount) {
+        this.itemCount = itemCount;
+    }
+
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder("Products{");
         sb.append("itemName='").append(itemName).append('\'');
         sb.append(", itemCost='").append(itemCost).append('\'');
+        sb.append(", itemCount='").append(itemCount).append('\'');
         sb.append('}');
         return sb.toString();
     }

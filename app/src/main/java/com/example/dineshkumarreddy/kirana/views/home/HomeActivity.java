@@ -4,9 +4,15 @@ import android.app.FragmentTransaction;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.design.widget.NavigationView;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBarDrawerToggle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.ProgressBar;
+import android.widget.Toast;
 
 import com.example.dineshkumarreddy.kirana.Utils.AppUtils;
 import com.example.dineshkumarreddy.kirana.views.base.BaseActivity;
@@ -19,11 +25,16 @@ import butterknife.ButterKnife;
 
 public class HomeActivity extends BaseActivity implements HomeScreen {
 
-    @BindView(R.id.progres_bar)
-    ProgressBar progres_bar;
-
     @BindView(R.id.mainContainer)
     FrameLayout frameLayout;
+
+    @BindView(R.id.parent_container)
+    DrawerLayout dl;
+
+    private ActionBarDrawerToggle t;
+
+    @BindView(R.id.navigationView)
+    NavigationView navigationView;
 
     public static Intent callingIntent(Context context){
         Intent i = new Intent(context, HomeActivity.class);
@@ -36,7 +47,29 @@ public class HomeActivity extends BaseActivity implements HomeScreen {
         ButterKnife.bind(this);
         AppUtils.replace(getSupportFragmentManager(), R.id.mainContainer, HomeFragment
                 .newInstance(), FragmentTransaction.TRANSIT_NONE);
+        t = new ActionBarDrawerToggle(this, dl,R.string.app_name, R.string.app_name);
 
+        dl.addDrawerListener(t);
+        t.syncState();
+
+        navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                int id = item.getItemId();
+                switch(id)
+                {
+                    case R.id.account:
+                        Toast.makeText(getApplicationContext(), "Proflr clicked", Toast.LENGTH_LONG).show();
+
+                    default:
+                        return true;
+                }
+
+
+
+
+            }
+        });
 
 
     }
@@ -48,12 +81,10 @@ public class HomeActivity extends BaseActivity implements HomeScreen {
 
     @Override
     public void showLoading() {
-        progres_bar.setVisibility(View.VISIBLE);
     }
 
     @Override
     public void hideLoding() {
-        progres_bar.setVisibility(View.VISIBLE);
     }
 
     @Override

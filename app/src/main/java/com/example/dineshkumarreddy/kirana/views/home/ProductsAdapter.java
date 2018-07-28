@@ -5,6 +5,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 import com.example.dineshkumarreddy.kirana.model.Products;
@@ -15,6 +16,7 @@ import java.util.List;
 public class ProductsAdapter extends RecyclerView.Adapter<ProductsAdapter.MyViewHolder> {
 
     private List<Products> productList;
+    private ListListner listListner;
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
         private TextView tvItemName;
@@ -22,6 +24,7 @@ public class ProductsAdapter extends RecyclerView.Adapter<ProductsAdapter.MyView
         private TextView tvCount;
         private TextView tvAdd;
         private TextView tvRemove;
+        private Button btnAdd;
 
 
         private MyViewHolder(View view) {
@@ -31,6 +34,7 @@ public class ProductsAdapter extends RecyclerView.Adapter<ProductsAdapter.MyView
             tvCount = view.findViewById(R.id.tvCount);
             tvRemove = view.findViewById(R.id.tvRemove);
             tvAdd = view.findViewById(R.id.tvAdd);
+            btnAdd = view.findViewById(R.id.btnAdd);
         }
     }
 
@@ -49,7 +53,7 @@ public class ProductsAdapter extends RecyclerView.Adapter<ProductsAdapter.MyView
     }
 
     @Override
-    public void onBindViewHolder(final MyViewHolder holder, int position) {
+    public void onBindViewHolder(final MyViewHolder holder, final int position) {
         holder.tvItemName.setText(productList.get(position).getItemName());
         holder.tvCost.setText("₹"+ productList.get(position).getItemCost());
         holder.tvCount.setText("0");
@@ -57,10 +61,7 @@ public class ProductsAdapter extends RecyclerView.Adapter<ProductsAdapter.MyView
         holder.tvAdd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                int oldCount = Integer.parseInt(holder.tvCount.getText().toString().trim());
-                int newCount = oldCount+ 1;
-                holder.tvCount.setText(String.valueOf(newCount));
-                holder.tvRemove.setEnabled(true);
+                onAddClick(holder, position);
             }
         });
         holder.tvRemove.setOnClickListener(new View.OnClickListener() {
@@ -70,17 +71,48 @@ public class ProductsAdapter extends RecyclerView.Adapter<ProductsAdapter.MyView
                 if(oldCount > 0) {
                     int newCount = oldCount -1;
                     holder.tvCount.setText(String.valueOf(newCount));
+                    productList.get(position).setItemCount(String.valueOf(newCount));
+                    listListner.getCartDetails(productList);
                 }
                 if(oldCount == 1){
                     holder.tvRemove.setEnabled(false);
+                    holder.btnAdd.setVisibility(View.VISIBLE);
+                    holder.tvAdd.setVisibility(View.GONE);
+                    holder.tvRemove.setVisibility(View.GONE);
                 }
+            }
+        });
+        holder.btnAdd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                onAddClick(holder, position);
             }
         });
     }
 
+    private void onAddClick(MyViewHolder holder, int position){
+        if(holder.btnAdd.getVisibility() == View.VISIBLE) {
+            holder.btnAdd.setVisibility(View.GONE);
+            holder.tvAdd.setVisibility(View.VISIBLE);
+            holder.tvRemove.setVisibility(View.VISIBLE);
+        }
+        int oldCount = Integer.parseInt(holder.tvCount.getText().toString().trim());
+        int newCount = oldCount+ 1;
+        holder.tvCount.setText(String.valueOf(newCount));
+        holder.tvRemove.setEnabled(true);
+        productList.get(position).setItemCount(String.valueOf(newCount));
+        listListner.getCartDetails(productList);
+    }
     @Override
     public int getItemCount() {
         return productList.size();
     }
 
+    public interface ListListner{
+        void getCartDetails(List<Products> cartItems);
+    }
+
+    public void setListener(ListListner listener) {
+        this.listListner = listener;
+    }
 }

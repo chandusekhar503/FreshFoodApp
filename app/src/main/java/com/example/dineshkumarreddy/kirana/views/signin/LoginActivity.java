@@ -21,9 +21,6 @@ import butterknife.ButterKnife;
 
 public class LoginActivity extends BaseActivity implements SignInScreen {
 
-    @BindView(R.id.progres_bar)
-    ProgressBar progres_bar;
-
     @BindView(R.id.mainContainer)
     FrameLayout frameLayout;
 
@@ -50,12 +47,10 @@ public class LoginActivity extends BaseActivity implements SignInScreen {
 
     @Override
     public void showLoading() {
-        progres_bar.setVisibility(View.VISIBLE);
     }
 
     @Override
     public void hideLoding() {
-        progres_bar.setVisibility(View.VISIBLE);
     }
 
     @Override

@@ -27,6 +27,16 @@
         android:padding="@dimen/dimen_8"
         android:text="1" />
 
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvItemName"
+        android:padding="@dimen/dimen_8"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_alignParentEnd="true"
+        android:text="Add"/>
     <TextView
         android:id="@+id/tvAdd"
         android:layout_width="wrap_content"
@@ -36,7 +46,8 @@
         android:textStyle="bold"
         android:textSize="@dimen/font_18"
         android:layout_alignParentEnd="true"
-        android:text="+" />
+        android:text="+"
+        android:visibility="gone"/>
 
     <TextView
         android:id="@+id/tvRemove"
@@ -47,7 +58,8 @@
         android:textStyle="bold"
         android:textSize="@dimen/font_18"
         android:layout_toStartOf="@+id/tvAdd"
-        android:text="-" />
+        android:text="-"
+        android:visibility="gone"/>
 
 
 

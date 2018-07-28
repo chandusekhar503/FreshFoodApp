@@ -16,16 +16,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e48e14da-cb81-4d9c-b263-09ffd0ef2504" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/com_google_android_gms_play_services_base_15_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/com_google_android_gms_play_services_basement_15_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/com_google_android_gms_play_services_location_15_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/com_google_android_gms_play_services_places_placereport_15_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/com_google_android_gms_play_services_tasks_15_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Kirana.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_moredays.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_today.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_weather.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_temperature.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-07-17-11-09-57-557.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-07-17-11-09-57-557.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-07-17-17-54-01-877.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-07-17-17-54-01-877.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-07-20-16-21-48-170.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-07-20-16-21-48-170.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-07-20-16-30-35-888.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-07-20-16-30-35-888.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-07-21-08-08-13-895.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-07-21-08-08-13-895.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-07-21-08-19-58-593.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-07-21-08-19-58-593.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-07-21-08-26-20-150.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-07-21-08-26-20-150.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-07-21-08-30-46-181.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-07-21-08-30-46-181.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-07-21-12-55-46-243.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-07-21-12-55-46-243.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-07-21-18-22-00-245.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-07-21-18-22-00-245.rawproto" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
@@ -34,19 +44,16 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/RetrofitClient.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/RetrofitClient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/model/Products.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/model/Products.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/home/HomeActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/home/HomeActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/home/HomeFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/home/HomeFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/signin/SignInFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/signin/SignInFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/signup/SignUpFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/signup/SignUpFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/mvp/home/HomePresenter.java" afterPath="$PROJECT_DIR$/app/src/main/java/mvp/home/HomePresenter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/mvp/home/HomePresenterImpl.java" afterPath="$PROJECT_DIR$/app/src/main/java/mvp/home/HomePresenterImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/home/ProductsAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/home/ProductsAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/signin/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/signin/LoginActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/mvp/signin/SignInPresenterImpl.java" afterPath="$PROJECT_DIR$/app/src/main/java/mvp/signin/SignInPresenterImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_signin.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_signin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_signup.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_signup.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_product.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_product.xml" />
     </list>
     <ignored path="Retrofit.iws" />
@@ -152,120 +159,120 @@
       <file leaf-file-name="HomeFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/home/HomeFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+            <state relative-caret-position="88">
+              <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2246#2247#0" expanded="true" />
-                <element signature="e#2285#2286#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SignInPresenter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/mvp/signin/SignInPresenter.java">
+      <file leaf-file-name="ProductsAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/home/ProductsAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SignInPresenterImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/mvp/signin/SignInPresenterImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="265">
+              <caret line="87" column="45" lean-forward="false" selection-start-line="87" selection-start-column="45" selection-end-line="87" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3115#3280#0" expanded="true" />
+                <element signature="e#3279#3280#0" expanded="true" />
+                <element signature="e#3981#3982#0" expanded="true" />
+                <element signature="e#4022#4023#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="fragment_home.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+              <folding>
+                <element signature="e#430#446#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
           <provider editor-type-id="android-designer2">
             <state />
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/home/HomeActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="45" column="41" lean-forward="false" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+              <folding>
+                <element signature="e#1692#1709#0" expanded="true" />
+                <element signature="e#1711#1728#0" expanded="true" />
+                <element signature="e#1846#2350#0" expanded="true" />
+                <element signature="e#2349#2350#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/signin/LoginActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
               <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomePresenterImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/mvp/home/HomePresenterImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-              <folding>
-                <element signature="e#627#628#0" expanded="true" />
-                <element signature="e#658#659#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SignInFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/signin/SignInFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="177" column="32" lean-forward="false" selection-start-line="177" selection-start-column="32" selection-end-line="177" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#5283#5435#0" expanded="true" />
-                <element signature="e#5434#5435#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SignUpFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/signup/SignUpFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="187" column="21" lean-forward="false" selection-start-line="187" selection-start-column="21" selection-end-line="187" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="item_product.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_product.xml">
           <provider editor-type-id="android-designer2">
             <state />
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hamberger_menu.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/hamberger_menu.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+            <state relative-caret-position="75">
+              <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fragment_signup.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_signup.xml">
           <provider editor-type-id="android-designer2">
             <state />
           </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="150" column="47" lean-forward="false" selection-start-line="150" selection-start-column="47" selection-end-line="150" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
         </entry>
       </file>
-      <file leaf-file-name="RetrofitClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/RetrofitClient.java">
+      <file leaf-file-name="layout_home_profile.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/layout_home_profile.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="19" column="85" lean-forward="false" selection-start-line="19" selection-start-column="85" selection-end-line="19" selection-end-column="85" />
-              <folding />
+              <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+              <folding>
+                <element signature="e#461#479#0" expanded="true" />
+                <element signature="e#510#526#0" expanded="true" />
+              </folding>
             </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
           </provider>
         </entry>
       </file>
@@ -276,33 +283,14 @@
       <list>
         <option value="ASInterface" />
         <option value="ASClass" />
-        <option value="resourceFile" />
         <option value="Class" />
         <option value="layoutResourceFile_vertical" />
+        <option value="resourceFile" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>mobile</find>
-      <find>bankname</find>
-      <find>1-</find>
-      <find>1</find>
-      <find>1 -</find>
-      <find>1 -c</find>
-      <find>1 -cl</find>
-      <find>1 -cli</find>
-      <find>1 -clic</find>
-      <find>1 -click</find>
-      <find>1-click</find>
-      <find>-click</find>
-      <find>-click p</find>
-      <find>-click pa</find>
-      <find>-click pay</find>
-      <find>-click paym</find>
-      <find>-click payme</find>
-      <find>-click paymen</find>
-      <find>-click payment</find>
       <find>click payment</find>
       <find>rupay ba</find>
       <find>SignInPresenter</find>
@@ -313,7 +301,26 @@
       <find>showl</find>
       <find>error</find>
       <find>signin</find>
+      <find>presenter</find>
+      <find>r.lay</find>
+      <find>tvItemName</find>
+      <find>holder</find>
+      <find>getCardDetails</find>
+      <find>listListner</find>
+      <find>oncre</find>
+      <find>precedence</find>
+      <find>getpr</find>
+      <find>i</find>
+      <find>iamsa</find>
+      <find>tvTotalItems</find>
+      <find>sessio</find>
+      <find>tvCount</find>
+      <find>tvRemove</find>
+      <find>design</find>
+      <find>iamsav</find>
       <find>r.la</find>
+      <find>progres_bar</find>
+      <find>21</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -2035,15 +2042,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/dagger/moduleuilder.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/model/SampleRequest.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/mvp/TestPresenter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/mvp/TestView.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/mvp/SignUpPresenterImpl.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/mvp/SignupView.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/mvp/signup/SignupView.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/mvp/signup/signin/SignUpPresenterImpl.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/mvp/signup/signin/SignInPresenter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/mvp/signup/signin/SigninView.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/SignInScreen.java" />
         <option value="$APPLICATION_CONFIG_DIR$/studio.vmoptions" />
@@ -2060,32 +2058,41 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/model/ApiResponse.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/mvp/signup/SignUpPresenterImpl.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/signin/SignInScreen.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/signin/LoginActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/signup/RegisterActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/signup/SignupView.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/mvp/signup/signup/SignUpPresenterImpl.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/home/LoginActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/home/HomeActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/mvp/home/SignInPresenter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/base/LocationUtil.java" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/base/BaseFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/model/LoginResponse.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/signin/SigninView.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/dialog_verify_mail.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/mvp/signin/SignInPresenter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/mvp/home/HomePresenterImpl.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/mvp/home/HomePresenter.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_signin.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_signup.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/signup/SignUpFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/signin/SignInFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/RetrofitClient.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/.gitignore" />
+        <option value="$PROJECT_DIR$/app/src/main/java/mvp/home/HomePresenterImpl.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/home/CustomAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/model/Products.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/mvp/signin/SignInPresenterImpl.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/home/HomeFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/base/BaseFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/item_product.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/home/ProductsAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_home_dmmy.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/layout_home_toolbar.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_hamburger.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/home/HomeFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/home/HomeActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/signin/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/hamberger_menu.xml" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
       </list>
     </option>
   </component>
@@ -2109,6 +2116,63 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FreshFoodApp" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidBuildScriptsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FreshFoodApp" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FreshFoodApp" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FreshFoodApp" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2371,65 +2435,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FreshFoodApp" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle Scripts" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidBuildScriptsGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FreshFoodApp" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FreshFoodApp" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FreshFoodApp" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2440,9 +2447,9 @@
     <property name="device.picker.selection" value="API_26_5.5" />
     <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlPreviewForm.SHOW" value="false" />
     <property name="show.do.not.ask.upgrade.gradle.plugin" value="2.2.3" />
-    <property name="SearchEverywhereHistoryKey" value="homefr&#9;FILE&#9;file:///Users/dineshkumarreddy/FreshFood/FreshFoodApp/app/src/main/java/com/example/dineshkumarreddy/kirana/views/home/HomeFragment.java&#10;signupf&#9;FILE&#9;file:///Users/dineshkumarreddy/FreshFood/FreshFoodApp/app/src/main/java/com/example/dineshkumarreddy/kirana/views/signup/SignUpFragment.java&#10;frsi&#9;FILE&#9;file:///Users/dineshkumarreddy/FreshFood/FreshFoodApp/app/src/main/res/layout/fragment_signup.xml&#10;signinf&#9;FILE&#9;file:///Users/dineshkumarreddy/FreshFood/FreshFoodApp/app/src/main/java/com/example/dineshkumarreddy/kirana/views/signin/SignInFragment.java&#10;homeact&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/src/main/java/com/example/dineshkumarreddy/kirana/views/home/HomeActivity.java&#10;sig&#9;PSI&#9;JAVA://mvp.signup.signin.SignInPresenter&#10;signinpr&#9;PSI&#9;JAVA://mvp.signup.signin.SignInPresenterImpl&#10;fragm&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/src/main/java/com/example/dineshkumarreddy/kirana/views/signin/SignInFragment.java&#10;basef&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/src/main/java/com/example/dineshkumarreddy/kirana/views/base/BaseFragment.java&#10;signinfr&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/src/main/java/com/example/dineshkumarreddy/kirana/views/signin/SignInFragment.java&#10;signupfr&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/src/main/java/com/example/dineshkumarreddy/kirana/views/signup/SignUpFragment.java&#10;signin&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/src/main/java/com/example/dineshkumarreddy/kirana/views/signin/SignInFragment.java&#10;signi&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/src/main/java/com/example/dineshkumarreddy/kirana/views/signin/SignInFragment.java&#10;andman&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/src/main/AndroidManifest.xml&#10;bui&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/build.gradle&#10;bui.gr&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/build.gradle&#10;presimp&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/src/main/java/mvp/signup/SignUpPresenterImpl.java&#10;retcl&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/src/main/java/com/example/dineshkumarreddy/kirana/RetrofitClient.java&#10;signup&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/src/main/java/com/example/dineshkumarreddy/kirana/SignUpFragment.java&#10;sign&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/src/main/java/com/example/dineshkumarreddy/kirana/SignUpFragment.java&#10;fs&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/src/main/res/layout/fragment_signup.xml&#10;api&#9;PSI&#9;JAVA://com.example.dineshkumarreddy.kirana.RetrofitClient.APIInterface&#10;sifr&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/src/main/java/com/example/dineshkumarreddy/kirana/SignUpFragment.java&#10;impl&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/src/main/java/mvp/SignUpPresenterImpl.java&#10;fr&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/src/main/res/layout/fragment_signin.xml&#10;presim&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/src/main/java/mvp/SignUpPresenterImpl.java&#10;testpr&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/src/main/java/mvp/TestPresenter.java&#10;testp&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/src/main/java/mvp/TestPresenter.java&#10;testvi&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/src/main/java/mvp/TestView.java&#10;andma&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/src/main/AndroidManifest.xml&#10;maina&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/src/main/java/com/example/dineshkumarreddy/kirana/MainActivity.java&#10;test&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/src/main/java/mvp/TestView.java&#10;main&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/src/main/java/com/example/dineshkumarreddy/kirana/MainActivity.java&#10;man&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/src/main/AndroidManifest.xml&#10;mai&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/Retrofit/app/src/main/java/com/example/dineshkumarreddy/retrofit/MainActivity.java&#10;str&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/Retrofit/app/src/main/res/values/strings.xml&#10;strx&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/Retrofit/app/src/main/res/values/strings.xml&#10;frto&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/Retrofit/app/src/main/res/layout/fragment_today.xml&#10;bu&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/Retrofit/app/build.gradle&#10;andm&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/Retrofit/app/src/main/AndroidManifest.xml" />
+    <property name="SearchEverywhereHistoryKey" value="bu&#9;FILE&#9;file:///Users/dineshkumarreddy/FreshFood/FreshFoodApp/app/build.gradle&#10;homefr&#9;FILE&#9;file:///Users/dineshkumarreddy/FreshFood/FreshFoodApp/app/src/main/java/com/example/dineshkumarreddy/kirana/views/home/HomeFragment.java&#10;homeac&#9;FILE&#9;file:///Users/dineshkumarreddy/FreshFood/FreshFoodApp/app/src/main/java/com/example/dineshkumarreddy/kirana/views/home/HomeActivity.java&#10;bui&#9;FILE&#9;file:///Users/dineshkumarreddy/FreshFood/FreshFoodApp/app/build.gradle&#10;basefr&#9;FILE&#9;file:///Users/dineshkumarreddy/FreshFood/FreshFoodApp/app/src/main/java/com/example/dineshkumarreddy/kirana/views/base/BaseFragment.java&#10;pro&#9;FILE&#9;file:///Users/dineshkumarreddy/FreshFood/FreshFoodApp/app/src/main/java/com/example/dineshkumarreddy/kirana/views/home/ProductsAdapter.java&#10;cus&#9;FILE&#9;file:///Users/dineshkumarreddy/FreshFood/FreshFoodApp/app/src/main/java/com/example/dineshkumarreddy/kirana/views/home/CustomAdapter.java&#10;home&#9;FILE&#9;file:///Users/dineshkumarreddy/FreshFood/FreshFoodApp/app/src/main/java/com/example/dineshkumarreddy/kirana/views/home/HomeFragment.java&#10;signinimpl&#9;FILE&#9;file:///Users/dineshkumarreddy/FreshFood/FreshFoodApp/app/src/main/java/mvp/signin/SignInPresenterImpl.java&#10;homeim&#9;FILE&#9;file:///Users/dineshkumarreddy/FreshFood/FreshFoodApp/app/src/main/java/mvp/home/HomePresenterImpl.java&#10;item_&#9;FILE&#9;file:///Users/dineshkumarreddy/FreshFood/FreshFoodApp/app/src/main/res/layout/item_product.xml&#10;.gitignore&#9;FILE&#9;file:///Users/dineshkumarreddy/FreshFood/FreshFoodApp/app/.gitignore&#10;buil&#9;FILE&#9;file:///Users/dineshkumarreddy/FreshFood/FreshFoodApp/app/build.gradle&#10;andman&#9;FILE&#9;file:///Users/dineshkumarreddy/FreshFood/FreshFoodApp/app/src/main/AndroidManifest.xml&#10;retr&#9;FILE&#9;file:///Users/dineshkumarreddy/FreshFood/FreshFoodApp/app/src/main/java/com/example/dineshkumarreddy/kirana/RetrofitClient.java&#10;impl&#9;FILE&#9;file:///Users/dineshkumarreddy/FreshFood/FreshFoodApp/app/src/main/java/mvp/home/HomePresenterImpl.java&#10;signin&#9;FILE&#9;file:///Users/dineshkumarreddy/FreshFood/FreshFoodApp/app/src/main/java/com/example/dineshkumarreddy/kirana/views/signin/SignInFragment.java&#10;loginac&#9;FILE&#9;file:///Users/dineshkumarreddy/FreshFood/FreshFoodApp/app/src/main/java/com/example/dineshkumarreddy/kirana/views/signin/LoginActivity.java&#10;signupf&#9;FILE&#9;file:///Users/dineshkumarreddy/FreshFood/FreshFoodApp/app/src/main/java/com/example/dineshkumarreddy/kirana/views/signup/SignUpFragment.java&#10;frsi&#9;FILE&#9;file:///Users/dineshkumarreddy/FreshFood/FreshFoodApp/app/src/main/res/layout/fragment_signup.xml&#10;signinf&#9;FILE&#9;file:///Users/dineshkumarreddy/FreshFood/FreshFoodApp/app/src/main/java/com/example/dineshkumarreddy/kirana/views/signin/SignInFragment.java&#10;homeact&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/src/main/java/com/example/dineshkumarreddy/kirana/views/home/HomeActivity.java&#10;sig&#9;PSI&#9;JAVA://mvp.signup.signin.SignInPresenter&#10;signinpr&#9;PSI&#9;JAVA://mvp.signup.signin.SignInPresenterImpl&#10;fragm&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/src/main/java/com/example/dineshkumarreddy/kirana/views/signin/SignInFragment.java&#10;basef&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/src/main/java/com/example/dineshkumarreddy/kirana/views/base/BaseFragment.java&#10;signinfr&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/src/main/java/com/example/dineshkumarreddy/kirana/views/signin/SignInFragment.java&#10;signupfr&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/src/main/java/com/example/dineshkumarreddy/kirana/views/signup/SignUpFragment.java&#10;signi&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/src/main/java/com/example/dineshkumarreddy/kirana/views/signin/SignInFragment.java&#10;bui.gr&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/build.gradle&#10;presimp&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/src/main/java/mvp/signup/SignUpPresenterImpl.java&#10;retcl&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/src/main/java/com/example/dineshkumarreddy/kirana/RetrofitClient.java&#10;signup&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/src/main/java/com/example/dineshkumarreddy/kirana/SignUpFragment.java&#10;sign&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/src/main/java/com/example/dineshkumarreddy/kirana/SignUpFragment.java&#10;fs&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/src/main/res/layout/fragment_signup.xml&#10;api&#9;PSI&#9;JAVA://com.example.dineshkumarreddy.kirana.RetrofitClient.APIInterface&#10;sifr&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/src/main/java/com/example/dineshkumarreddy/kirana/SignUpFragment.java&#10;fr&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/src/main/res/layout/fragment_signin.xml&#10;presim&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/src/main/java/mvp/SignUpPresenterImpl.java&#10;testpr&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/src/main/java/mvp/TestPresenter.java&#10;testp&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/src/main/java/mvp/TestPresenter.java&#10;testvi&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/src/main/java/mvp/TestView.java&#10;andma&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/src/main/AndroidManifest.xml&#10;maina&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/src/main/java/com/example/dineshkumarreddy/kirana/MainActivity.java&#10;test&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/src/main/java/mvp/TestView.java&#10;main&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/src/main/java/com/example/dineshkumarreddy/kirana/MainActivity.java&#10;man&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/prasanna/Kirana/app/src/main/AndroidManifest.xml&#10;mai&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/Retrofit/app/src/main/java/com/example/dineshkumarreddy/retrofit/MainActivity.java&#10;str&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/Retrofit/app/src/main/res/values/strings.xml&#10;strx&#9;FILE&#9;file:///Users/dineshkumarreddy/AndroidStudioProjects/Retrofit/app/src/main/res/values/strings.xml" />
     <property name="android.profiler.active" value="true" />
-    <property name="DEBUGGABLE_DEVICE" value="emulator-5554" />
+    <property name="DEBUGGABLE_DEVICE" value="ZY322D82FZ" />
     <property name="DEBUGGABLE_PROCESS" value="com.example.dineshkumarreddy.retrofit" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="DEBUGGER_ID" value="Auto" />
@@ -2451,20 +2458,21 @@
     <property name="ScreenshotViewer.SavePath" value="$USER_HOME$/Desktop" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.dineshkumarreddy.kirana.views.home" />
+      <recent name="com.example.dineshkumarreddy.kirana" />
+      <recent name="com.example.dineshkumarreddy.kirana.model" />
+      <recent name="com.example.dineshkumarreddy.retrofit" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
       <recent name="$PROJECT_DIR$/app/src/main/java/mvp/home" />
       <recent name="$PROJECT_DIR$/app/src/main/java/mvp" />
       <recent name="$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/home" />
       <recent name="$PROJECT_DIR$/app/src/main/java/mvp/signup/signin" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.example.dineshkumarreddy.kirana" />
-      <recent name="com.example.dineshkumarreddy.kirana.model" />
-      <recent name="com.example.dineshkumarreddy.retrofit" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -2568,7 +2576,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1532176932077" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1532786133490" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2616,7 +2624,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1532176932077" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1532786133490" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2657,6 +2665,27 @@
       <setting name="params" value="" />
       <setting name="workDir" value="file://$PROJECT_DIR$" />
       <setting name="debug" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
@@ -2787,7 +2816,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1532176932078" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1532786133495" />
       </method>
     </configuration>
     <list size="2">
@@ -2874,32 +2903,32 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="717" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32838285" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32838285" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.59567386" sideWeight="0.4951535" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39933443" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.327787" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32838285" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32612312" sideWeight="0.49676898" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.59567386" sideWeight="0.4951535" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.59570956" sideWeight="0.5048465" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32838285" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39933443" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2910,7 +2939,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32838285" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -2975,57 +3003,63 @@
           <properties />
           <option name="timeStamp" value="41" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/mvp/signin/SignInPresenterImpl.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/mvp/signin/SignInPresenterImpl.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/home/ProductsAdapter.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/home/HomeFragment.java</url>
+          <line>85</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/home/ProductsAdapter.java</url>
+          <line>107</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/home/ProductsAdapter.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/home/ProductsAdapter.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/home/HomeFragment.java</url>
+          <line>137</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="42" />
+      <option name="time" value="52" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/dagger/Annotations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/dagger/ActivityModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/dagger/ActivityComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/dagger/SignUpModule.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/dagger/SignUpScreenViewModule.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/dagger/moduleuilder.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/btn_round_bg.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="47" lean-forward="false" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/studio.vmoptions">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/generated/source/apt/debug/com/example/dineshkumarreddy/kirana/views/SignInFragment_ViewBinding.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/8.6.0/c4cf3d5a055b66fa8ba56a48505b71784e34bdc0/butterknife-8.6.0-sources.jar!/butterknife/internal/DebouncingOnClickListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -3063,30 +3097,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/mvp/signup/signin/SignInPresenterImpl.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/model/SignUpResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/signin/SignInScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/signin/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/signup/SignupView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -3118,48 +3128,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="76" lean-forward="false" selection-start-line="5" selection-start-column="76" selection-end-line="5" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/base/LocationUtil.java" />
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="68" lean-forward="false" selection-start-line="42" selection-start-column="68" selection-end-line="42" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/model/SignUpRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="86" column="16" lean-forward="false" selection-start-line="86" selection-start-column="16" selection-end-line="86" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/base/BaseFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="68" column="5" lean-forward="false" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/discover-2018-07-10-095044.png" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.3.0/76f3c69879d3e01c082f49d8661c5590838148e1/retrofit-2.3.0-sources.jar!/retrofit2/Response.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="105" column="13" lean-forward="false" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="13" />
-          <folding>
-            <element signature="e#3703#3704#0" expanded="false" />
-            <element signature="e#3738#3739#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3170,21 +3144,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/signin/SigninView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_verify_mail.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/model/LoginResponse.java">
@@ -3198,18 +3165,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/home/HomeActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="37" column="24" lean-forward="false" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
-          <folding>
-            <element signature="e#1413#1414#0" expanded="false" />
-            <element signature="e#1468#1469#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3217,30 +3172,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_signin.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="62" column="35" lean-forward="false" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_signup.xml">
       <provider editor-type-id="android-designer2">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="150" column="47" lean-forward="false" selection-start-line="150" selection-start-column="47" selection-end-line="150" selection-end-column="47" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/signup/SignUpFragment.java">
@@ -3251,96 +3194,270 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/RetrofitClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="19" column="85" lean-forward="false" selection-start-line="19" selection-start-column="85" selection-end-line="19" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/signin/SignInFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="177" column="32" lean-forward="false" selection-start-line="177" selection-start-column="32" selection-end-line="177" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5283#5435#0" expanded="true" />
-            <element signature="e#5434#5435#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/mvp/signin/SignInPresenter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="71">
           <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_temperature.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_signup.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="150" column="47" lean-forward="false" selection-start-line="150" selection-start-column="47" selection-end-line="150" selection-end-column="47" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/RetrofitClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="19" column="86" lean-forward="false" selection-start-line="19" selection-start-column="86" selection-end-line="19" selection-end-column="86" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/signin/SigninView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/signin/SignInScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/mvp/home/HomePresenterImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        <state relative-caret-position="60">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#305#306#0" expanded="false" />
+            <element signature="e#336#337#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-27/android.jar!/android/view/Choreographer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/btn_round_bg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="47" lean-forward="false" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/model/SignUpRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/model/SignUpResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="94" lean-forward="false" selection-start-line="28" selection-start-column="94" selection-end-line="28" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/signin/SignInFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="200" column="0" lean-forward="false" selection-start-line="200" selection-start-column="0" selection-end-line="200" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/mvp/signin/SignInPresenterImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        <state relative-caret-position="103">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/home/HomeFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/model/Products.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+        <state relative-caret-position="118">
+          <caret line="40" column="20" lean-forward="false" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2246#2247#0" expanded="true" />
-            <element signature="e#2285#2286#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#869#870#0" expanded="false" />
+            <element signature="e#901#902#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/base/BaseFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_product.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="39" column="13" lean-forward="false" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+          <folding>
+            <element signature="e#1192#1208#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/home/ProductsAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="87" column="45" lean-forward="false" selection-start-line="87" selection-start-column="45" selection-end-line="87" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3115#3280#0" expanded="true" />
+            <element signature="e#3279#3280#0" expanded="true" />
+            <element signature="e#3981#3982#0" expanded="true" />
+            <element signature="e#4022#4023#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/layout_home_profile.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding>
+            <element signature="e#461#479#0" expanded="true" />
+            <element signature="e#510#526#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_hamburger.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <folding>
+            <element signature="e#430#446#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/home/HomeFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/signin/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/hamberger_menu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dineshkumarreddy/kirana/views/home/HomeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="45" column="41" lean-forward="false" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+          <folding>
+            <element signature="e#1692#1709#0" expanded="true" />
+            <element signature="e#1711#1728#0" expanded="true" />
+            <element signature="e#1846#2350#0" expanded="true" />
+            <element signature="e#2349#2350#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_temperature.xml">
       <provider editor-type-id="android-designer2">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_product.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-          <folding />
-        </state>
       </provider>
     </entry>
   </component>
