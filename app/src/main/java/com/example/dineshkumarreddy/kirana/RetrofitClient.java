@@ -1,7 +1,9 @@
 package com.example.dineshkumarreddy.kirana;
 
 import com.example.dineshkumarreddy.kirana.model.ApiResponse;
+import com.example.dineshkumarreddy.kirana.model.CategoryResponse;
 import com.example.dineshkumarreddy.kirana.model.LoginResponse;
+import com.example.dineshkumarreddy.kirana.model.ProductResponse;
 import com.example.dineshkumarreddy.kirana.model.SignUpRequest;
 
 import retrofit2.Call;
@@ -17,7 +19,7 @@ public class RetrofitClient {
 
     public static APIInterface getAPIClient() {
         if (mApiInterface == null) {
-            Retrofit restAdapter = new Retrofit.Builder().baseUrl("http://192.168.1.11:3000/")//192.168.1.5 192.168.43.40
+            Retrofit restAdapter = new Retrofit.Builder().baseUrl("http://192.168.43.201:3000/")//192.168.1.5 192.168.43.40
                     .addConverterFactory(GsonConverterFactory.create())
                     .build();
             mApiInterface = restAdapter.create(APIInterface.class);
@@ -32,7 +34,6 @@ public class RetrofitClient {
                 @Body SignUpRequest body
         );
 
-
         @GET("users/login")
         Call<LoginResponse> signIn(
                 @Query("username") String mobileNumber,
@@ -43,5 +44,14 @@ public class RetrofitClient {
         Call<ApiResponse> verifyEmail(
                 @Query("username") String mobileNumber
         );
+
+        @GET("products")
+        Call<ProductResponse> queryProducts(
+                @Query("categoryType") String categoryType,
+                @Query("productName") String productName
+        );
+
+        @GET("category")
+        Call<CategoryResponse> queryCategories();
     }
 }

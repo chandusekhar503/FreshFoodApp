@@ -4,20 +4,19 @@ import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import android.support.design.widget.NavigationView;
 import android.support.design.widget.Snackbar;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.EditText;
+import android.widget.Spinner;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.example.dineshkumarreddy.kirana.model.Products;
+import com.example.dineshkumarreddy.kirana.model.Category;
+import com.example.dineshkumarreddy.kirana.model.Product;
 import com.example.dineshkumarreddy.kirana.views.base.BaseFragment;
 import com.example.dineshkumarreddy.retrofit.R;
 
@@ -47,6 +46,12 @@ public class HomeFragment extends BaseFragment implements HomeView, ProductsAdap
     HomeScreen homeScreen;
 
     HomePresenter presenter;
+
+    @BindView(R.id.search_spinner)
+    Spinner searchSpinner;
+
+    @BindView(R.id.search_edittext)
+    EditText searchEditText;
 
     public static HomeFragment newInstance() {
         
@@ -80,17 +85,27 @@ public class HomeFragment extends BaseFragment implements HomeView, ProductsAdap
         super.onViewCreated(view, savedInstanceState);
         if(presenter!= null){
             presenter.attachView(this);
+
+            String defaultSearchCategory="";
+            String defaultSearchProduct="";
+
             //get products from server
-//            presenter.getProducts();
-            List<Products> productList = new ArrayList<>();
-            productList.add(new Products("Milk", "20"));
-            productList.add(new Products("Curd", "22"));
+            //presenter.setProducts();
+            presenter.setProducts(defaultSearchCategory,defaultSearchProduct);
+
+            //get Categories from server
+            //presenter.setCategory();
+            presenter.setCategory();
+
+            /*List<Product> productList = new ArrayList<>();
+            productList.add(new Product("Milk", "20","",""));
+            productList.add(new Product("Curd", "22","",""));
             ProductsAdapter adapter = new ProductsAdapter(productList, getActivity());
             adapter.setListener(this);
             RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getActivity());
 
             rvProducts.setLayoutManager(mLayoutManager);
-            rvProducts.setAdapter(adapter);
+            rvProducts.setAdapter(adapter);*/
         }
     }
 
@@ -126,22 +141,43 @@ public class HomeFragment extends BaseFragment implements HomeView, ProductsAdap
     }
 
     @Override
-    public void getCartDetails(List<Products> cartItem) {
+    public void showProducts(List<Product> productList) {
+        ProductsAdapter adapter = new ProductsAdapter(productList, getActivity());
+        adapter.setListener(this);
+        RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getActivity());
+        rvProducts.setLayoutManager(mLayoutManager);
+        rvProducts.setAdapter(adapter);
+
+    }
+
+    @Override
+    public void showCategories(List<Category> categoryList) {
+        List<String> cata = new ArrayList<>();
+        for (Category category: categoryList){
+            cata.add(category.getCategoryId());
+        }
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),android.R.layout.simple_spinner_item,cata);
+        searchSpinner.setAdapter(adapter);
+        adapter.notifyDataSetChanged();
+    }
+
+    @Override
+    public void getCartDetails(List<Product> cartItem) {
         System.out.println("cartitems::"+ cartItem.size());
         tvTotalItems.setText(String.valueOf(cartItem.size()));
         tvTotalCost.setText(String.valueOf((getTotal(cartItem))));
     }
 
-    private double getTotal(List<Products> cartItem) {
+    private double getTotal(List<Product> cartItem) {
         double total = 0;
-        for(int i=0; i< cartItem.size(); i++){
-            Products products = cartItem.get(i);
-            double itemPrice = Double.valueOf(products.getItemCost());
+        /*for(int i=0; i< cartItem.size(); i++){
+            Product products = cartItem.get(i);
+            double itemPrice = Double.valueOf(products.getProductPrice());
             if(products.getItemCount() != null) {
                 double itemCount = Double.valueOf(products.getItemCount());
                 total = total + (itemCount * itemPrice);
             }
-        }
+        }*/
         return total;
     }
 }

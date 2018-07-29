@@ -10,8 +10,10 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.FrameLayout;
 import android.widget.ProgressBar;
+import android.widget.Spinner;
 import android.widget.Toast;
 
 import com.example.dineshkumarreddy.kirana.Utils.AppUtils;
@@ -35,6 +37,7 @@ public class HomeActivity extends BaseActivity implements HomeScreen {
 
     @BindView(R.id.navigationView)
     NavigationView navigationView;
+
 
     public static Intent callingIntent(Context context){
         Intent i = new Intent(context, HomeActivity.class);
@@ -65,13 +68,8 @@ public class HomeActivity extends BaseActivity implements HomeScreen {
                         return true;
                 }
 
-
-
-
             }
         });
-
-
     }
 
     @Override

@@ -34,7 +34,7 @@ public class SignInPresenterImpl implements SignInPresenter {
                 @Override
                 public void onResponse(Call<LoginResponse> call, Response<LoginResponse> response) {
                     signinView.hideLoding();
-                    if(response.body().getCode() == 201){
+                    if(response.body().getCode() == 200){
                         signinView.showEmailNotVerifiedDialog();
                     }else {
                         signinView.navigateToHome();

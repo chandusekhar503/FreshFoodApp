@@ -24,7 +24,8 @@
         android:layout_height="wrap_content"
         android:hint="Mobile Number"
         android:maxLength="10"
-        android:inputType="phone"/>
+        android:inputType="phone"
+        android:text="9620218946"/>
     </android.support.design.widget.TextInputLayout>
 
     <android.support.design.widget.TextInputLayout
@@ -40,7 +41,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
-            android:hint="Password"/>
+            android:hint="Password"
+            android:text="qwerty@12"/>
     </android.support.design.widget.TextInputLayout>
 
     <RelativeLayout

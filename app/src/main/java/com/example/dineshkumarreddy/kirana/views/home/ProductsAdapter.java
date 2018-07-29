@@ -8,14 +8,14 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.example.dineshkumarreddy.kirana.model.Products;
+import com.example.dineshkumarreddy.kirana.model.Product;
 import com.example.dineshkumarreddy.retrofit.R;
 
 import java.util.List;
 
 public class ProductsAdapter extends RecyclerView.Adapter<ProductsAdapter.MyViewHolder> {
 
-    private List<Products> productList;
+    private List<Product> productList;
     private ListListner listListner;
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
@@ -39,7 +39,7 @@ public class ProductsAdapter extends RecyclerView.Adapter<ProductsAdapter.MyView
     }
 
 
-    public ProductsAdapter(List<Products> productList, Context context) {
+    public ProductsAdapter(List<Product> productList, Context context) {
         this.productList = productList;
 
     }
@@ -54,8 +54,8 @@ public class ProductsAdapter extends RecyclerView.Adapter<ProductsAdapter.MyView
 
     @Override
     public void onBindViewHolder(final MyViewHolder holder, final int position) {
-        holder.tvItemName.setText(productList.get(position).getItemName());
-        holder.tvCost.setText("₹"+ productList.get(position).getItemCost());
+        holder.tvItemName.setText(productList.get(position).getProductName());
+        holder.tvCost.setText("₹"+ productList.get(position).getProductPrice());
         holder.tvCount.setText("0");
         holder.tvRemove.setEnabled(false);
         holder.tvAdd.setOnClickListener(new View.OnClickListener() {
@@ -71,7 +71,7 @@ public class ProductsAdapter extends RecyclerView.Adapter<ProductsAdapter.MyView
                 if(oldCount > 0) {
                     int newCount = oldCount -1;
                     holder.tvCount.setText(String.valueOf(newCount));
-                    productList.get(position).setItemCount(String.valueOf(newCount));
+                    //productList.get(position).setItemCount(String.valueOf(newCount));
                     listListner.getCartDetails(productList);
                 }
                 if(oldCount == 1){
@@ -100,7 +100,7 @@ public class ProductsAdapter extends RecyclerView.Adapter<ProductsAdapter.MyView
         int newCount = oldCount+ 1;
         holder.tvCount.setText(String.valueOf(newCount));
         holder.tvRemove.setEnabled(true);
-        productList.get(position).setItemCount(String.valueOf(newCount));
+        //productList.get(position).setItemCount(String.valueOf(newCount));
         listListner.getCartDetails(productList);
     }
     @Override
@@ -109,7 +109,7 @@ public class ProductsAdapter extends RecyclerView.Adapter<ProductsAdapter.MyView
     }
 
     public interface ListListner{
-        void getCartDetails(List<Products> cartItems);
+        void getCartDetails(List<Product> cartItems);
     }
 
     public void setListener(ListListner listener) {
