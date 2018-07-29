@@ -10,6 +10,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.Spinner;
@@ -153,12 +154,27 @@ public class HomeFragment extends BaseFragment implements HomeView, ProductsAdap
     @Override
     public void showCategories(List<Category> categoryList) {
         List<String> cata = new ArrayList<>();
+        cata.add("All"+"_ ");
         for (Category category: categoryList){
-            cata.add(category.getCategoryId());
+            cata.add(category.getCategoryName()+"_"+category.getCategoryId());
         }
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),android.R.layout.simple_spinner_item,cata);
         searchSpinner.setAdapter(adapter);
         adapter.notifyDataSetChanged();
+        searchSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                String selectedItem = parent.getItemAtPosition(position).toString();
+                String[] categoryArray = selectedItem.split("_");
+                String category = categoryArray[1];
+                presenter.setProducts(category,"");
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
     }
 
     @Override
