@@ -35,6 +35,7 @@ public class HomePresenterImpl implements HomePresenter {
 
     @Override
     public void setProducts(String category, String product) {
+        System.out.println(category+" : "+product);
         final Call<ProductResponse> productQueryResponse =  RetrofitClient.getAPIClient().queryProducts(category,product);
         productQueryResponse.enqueue(new Callback<ProductResponse>() {
             @Override

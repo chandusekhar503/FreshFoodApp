@@ -54,6 +54,10 @@ public class HomeFragment extends BaseFragment implements HomeView, ProductsAdap
     @BindView(R.id.search_edittext)
     EditText searchEditText;
 
+
+    private final String defaultSearchCategory="ALL";
+    private final String defaultSearchProduct="ALL";
+
     public static HomeFragment newInstance() {
         
         Bundle args = new Bundle();
@@ -87,8 +91,7 @@ public class HomeFragment extends BaseFragment implements HomeView, ProductsAdap
         if(presenter!= null){
             presenter.attachView(this);
 
-            String defaultSearchCategory="";
-            String defaultSearchProduct="";
+
 
             //get products from server
             //presenter.setProducts();
@@ -167,7 +170,7 @@ public class HomeFragment extends BaseFragment implements HomeView, ProductsAdap
                 String selectedItem = parent.getItemAtPosition(position).toString();
                 String[] categoryArray = selectedItem.split("_");
                 String category = categoryArray[1];
-                presenter.setProducts(category,"");
+                presenter.setProducts(category,defaultSearchProduct);
             }
 
             @Override
