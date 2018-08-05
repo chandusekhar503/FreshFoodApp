@@ -95,7 +95,7 @@ public class HomeFragment extends BaseFragment implements HomeView, ProductsAdap
 
             //get products from server
             //presenter.setProducts();
-            presenter.setProducts(defaultSearchCategory,defaultSearchProduct);
+            presenter.setProducts(defaultSearchCategory.trim(),defaultSearchProduct.trim());
 
             //get Categories from server
             //presenter.setCategory();
@@ -157,7 +157,7 @@ public class HomeFragment extends BaseFragment implements HomeView, ProductsAdap
     @Override
     public void showCategories(List<Category> categoryList) {
         List<String> cata = new ArrayList<>();
-        cata.add("All"+"_ ");
+        cata.add("All"+"_"+defaultSearchCategory.trim());
         for (Category category: categoryList){
             cata.add(category.getCategoryName()+"_"+category.getCategoryId());
         }
@@ -170,7 +170,7 @@ public class HomeFragment extends BaseFragment implements HomeView, ProductsAdap
                 String selectedItem = parent.getItemAtPosition(position).toString();
                 String[] categoryArray = selectedItem.split("_");
                 String category = categoryArray[1];
-                presenter.setProducts(category,defaultSearchProduct);
+                presenter.setProducts(category,defaultSearchProduct.trim());
             }
 
             @Override
